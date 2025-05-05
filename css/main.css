@@ -1,0 +1,64 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/noto-sans-v39-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/noto-sans-v39-latin-600.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/bebas-neue-v14-latin-regular.woff2') format('woff2');
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Noto Sans",sans-serif;
+}
+
+.containers{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.header-contaners{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.header{
+    background-image: url(../images/bacrounimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.font{
+    font-family: "Bebas Neue",sans-serif;
+}
+.img{
+    background-image: url(../images/Frame\ 43.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 605px;
+    height: 400px;
+}
+.img2{
+    background-image: url(../images/Frame\ 43\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 605px;
+    height: 400px;
+}
+.footer{
+    background-image: url(../images/ag-tach.png);
+    background-repeat: no-repeat;
+    background-size: 610px 626px;
+}
